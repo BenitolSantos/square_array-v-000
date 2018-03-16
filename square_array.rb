@@ -1,3 +1,21 @@
+def square_array(array)
+  # your code here
+    array.each do |element|
+    end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+=begin
 require "pry"
 def square_array(array)
   count = 1
@@ -11,3 +29,4 @@ def square_array(array)
   end
   return array
 end
+=end
