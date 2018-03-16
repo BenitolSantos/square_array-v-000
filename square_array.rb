@@ -4,6 +4,10 @@ def square_array(array)
     array.each do |element|
       element = element*element
       new_array.push(element)
+    #A new array needs to be created because you can't effect the elements
+    #in the array directly with .each
+    #so you have to push these squared elements to a new array
+    #and redefine the old one.
     end
     array = new_array
 end
